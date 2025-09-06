@@ -17,3 +17,23 @@ function prev(){
     }
     imgTag.src = photos[count]
 }
+
+
+
+
+
+
+
+// add
+const para = document.getElementById('p')
+const butn = document.getElementById('btn')
+butn.addEventListener('click', function addStyle(){
+    para.classList.add("p-style")
+})
+
+// remove
+const rbutn = document.getElementById('r-btn')
+rbutn.addEventListener('click', function removeStyle(){
+    para.classList.remove("p-style")
+})
+
